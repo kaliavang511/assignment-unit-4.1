@@ -43,9 +43,9 @@ function isPositive(number) {
   return false;
 }
 
-console.log(isPositive(2));
+console.log('positive number should equal true',isPositive(2));
 // Call the function to test each outcome (true & false) 
-console.log(isPositive(-1))
+console.log('Negative number should equal false',isPositive(-1))
 // Write a separate console.log statement for each outcome
 
 
@@ -152,7 +152,7 @@ function isAvgWhole(array) {
   //diving sum into how many items are in the array to get the Avg
   //return true or false rather it's a whole number or not 
 }
-console.log(isAvgWhole([2,3,4,5]))
+console.log(isAvgWhole([5,5,5,5,5]))
 //console.log to double check our work
 
 // DO NOT MODIFY
